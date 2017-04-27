@@ -9,6 +9,8 @@ The repository to create a vagrant development environment for our project.
     1. Go to [here](https://www.vagrantup.com/docs/installation/)
     2. Follow instructions for your os.
 2. Use GIT to copy this directory to somewhere on your computer
+    Note that I've used the gitignore file to ignore the 'app' folder. So when working, make a new git repository in here and link to 
+    [https://github.com/Elstabbo/IFB398](https://github.com/Elstabbo/IFB398)
 3. Navigate to the folder in terminal/command line
 4. Run Vagrant Up
 

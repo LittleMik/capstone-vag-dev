@@ -6,8 +6,6 @@
 # backwards compatibility). Please don't change it unless you know what
 # you're doing.
 Vagrant.configure("2") do |config|
-	# Every vagrant virtual env requires a box to build off of
-	
 	# Create the offline local development server
 	config.vm.define :development do |www|
 	# VirtualBox Specific Customization
