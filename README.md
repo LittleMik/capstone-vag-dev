@@ -23,4 +23,9 @@ The repository to create a vagrant development environment for our project.
 3. Inside the vagrant file, you can see/change if neccessary the ip that you connect to access the application. Its also
 possible that you may have to change the port if it conflicts with another program on your computer.
 
-![Alt text](docs/img1.JPG?raw=true "Vagrant File")
+![Alt text](docs/img2.JPG?raw=true "Vagrant File")
+
+4. To see if this working, simply use your browser and connect to the IP set in the vagrant file, which will be 192.168.33.50 unless
+otherwise set. You should see the php info file.
+
+![Alt text](docs/img3.JPG?raw=true "Test")
