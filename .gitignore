@@ -1,12 +1,9 @@
 # Application folder #
 ######################
 app/**
-app/*/**
-app/*/*/**
 # exception to the rule
 !app/.gitkeep 
 
 # Vagrant Stuff #
 #################
 .vagrant/**
-.vagrant/machines/**
