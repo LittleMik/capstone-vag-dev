@@ -5,9 +5,11 @@ The repository to create a vagrant development environment for our project.
 
 ### I will put better instructions up later.
 
-1. Install Vagrant
-    1. Go to [here](https://www.vagrantup.com/docs/installation/)
-    2. Follow instructions for your os.
+1. Install Vagrant and Virtual Box
+    1. Go to [here](https://www.vagrantup.com/docs/installation/) and follow instructions to install vagrant. 
+	OSX/Linux probably has a terminal command.
+	2. Go [here](https://www.virtualbox.org/) and install virtual box. OSX/Linux probably has a terminal command.
+
 2. Use GIT to copy this directory to somewhere on your computer
     Note that I've used the gitignore file to ignore the 'app' folder. So when working, make a new git repository in here and link to 
     [https://github.com/Elstabbo/IFB398](https://github.com/Elstabbo/IFB398)

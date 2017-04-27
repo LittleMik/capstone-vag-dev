@@ -3,3 +3,7 @@
 app/*
 # exception to the rule
 !app/.gitkeep 
+
+# Vagrant Stuff #
+#################
+.vagrant/

@@ -6,6 +6,8 @@
 # backwards compatibility). Please don't change it unless you know what
 # you're doing.
 Vagrant.configure("2") do |config|
+	# Install puppet using bootstrap bash script
+	config.vm.provision :shell, :path => "bootstrap.sh"
 	# Create the offline local development server
 	config.vm.define :development do |www|
 	# VirtualBox Specific Customization
@@ -22,9 +24,6 @@ Vagrant.configure("2") do |config|
 	end
 	# Change mirror to au mirror. This can make it faster, but I was having some issues being forbidden from some parts.
 	# config.vm.provision :shell, :inline => "sed -i 's/us.archive/au.archive/g' /etc/apt/sources.list"
-	
-	# Install puppet using bootstrap bash script
-	config.vm.provision :shell, :path => "bootstrap.sh"
 	
 	# Use puppet to provision the vm.
 	config.vm.provision :puppet do |puppet|
