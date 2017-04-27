@@ -13,10 +13,6 @@ node 'development.eventapp.vm' {
 		docroot => '/var/www/app',     # set the docroot to the /var/www/app
 	}
 	
-	#class { 'mysql::server':
-	#	root_password => 'password',
-	#}
-	
 	# Setting up the document root
 	file { ['/var/www', '/var/www/app'] : 
 		ensure => directory,
