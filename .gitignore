@@ -9,4 +9,4 @@ app/*/*/**
 # Vagrant Stuff #
 #################
 .vagrant/**
-.vagrant/*/**
+.vagrant/machines/**
