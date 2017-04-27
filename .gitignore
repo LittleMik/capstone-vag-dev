@@ -1,2 +1,5 @@
 # Application folder #
-app/
+######################
+app/*
+# exception to the rule
+!app/.gitkeep 
