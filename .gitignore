@@ -7,3 +7,5 @@ app/**
 # Vagrant Stuff #
 #################
 .vagrant/**
+puppet/modules/**
+!puppet/modules/.gitkeep
