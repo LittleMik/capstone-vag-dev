@@ -18,12 +18,15 @@ Vagrant.configure("2") do |config|
 		www.vm.box = "bento/ubuntu-16.04"
 		www.vm.hostname = "development.eventapp.vm"
 		www.vm.network :private_network, ip: "192.168.33.50"
-		www.vm.network :forwarded_port, guest: 80, host: 8090
+		www.vm.network :forwarded_port, guest: 80, host: 8080
 		# Sinc the host folder app with the guest foldder /vavr/www/app
 		www.vm.synced_folder "app", "/var/www/app"
 	end
 	# Change mirror to au mirror. This can make it faster, but I was having some issues being forbidden from some parts.
 	# config.vm.provision :shell, :inline => "sed -i 's/us.archive/au.archive/g' /etc/apt/sources.list"
+	
+
+	config.vm.provision :shell, :path => "installmodules.sh"
 	
 	# Use puppet to provision the vm.
 	config.vm.provision :puppet do |puppet|
