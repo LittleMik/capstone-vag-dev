@@ -3,8 +3,6 @@ The repository to create a vagrant development environment for our project.
 
 ## Installation
 
-### I will put better instructions up later.
-
 1. Install Vagrant and Virtual Box
     1. Go to [here](https://www.vagrantup.com/docs/installation/) and follow instructions to install vagrant. 
 	OSX/Linux probably has a terminal command.
@@ -29,3 +27,8 @@ possible that you may have to change the port if it conflicts with another progr
 otherwise set. You should see the php info file.
 
 ![Alt text](docs/img3.JPG?raw=true "Test")
+
+## Development
+
+Use the app folder, see index.php as an example. If we like, I can also add a local database, but I thought initially we
+would just connect to the heroku one.
