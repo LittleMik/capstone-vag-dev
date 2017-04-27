@@ -12,7 +12,7 @@ The repository to create a vagrant development environment for our project.
 3. Navigate to the folder in terminal/command line
 4. Run Vagrant Up
 
-![alt text](http://imgur.com/a/3uSGU)
+![Alt text](/docs/img1.png?raw=true "Vagrant Up")
 
     This will take a long time (5-10 min), as it has to download the ubuntu image file and configure it.
 
