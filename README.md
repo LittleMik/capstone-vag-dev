@@ -20,4 +20,7 @@ The repository to create a vagrant development environment for our project.
 
     This will take a long time (5-10 min), as it has to download the ubuntu image file and configure it.
 
-3. See vagrant file for ip to connect to.
+3. Inside the vagrant file, you can see/change if neccessary the ip that you connect to access the application. Its also
+possible that you may have to change the port if it conflicts with another program on your computer.
+
+![Alt text](docs/img1.JPG?raw=true "Vagrant File")
