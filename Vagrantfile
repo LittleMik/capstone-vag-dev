@@ -18,7 +18,7 @@ Vagrant.configure("2") do |config|
 		www.vm.box = "bento/ubuntu-16.04"
 		www.vm.hostname = "development.eventapp.vm"
 		www.vm.network :private_network, ip: "192.168.33.50"
-		www.vm.network :forwarded_port, guest: 80, host: 8080
+		www.vm.network "forwarded_port", guest: 80, host: 8080, host_ip: "127.0.0.1"
 		# Sinc the host folder app with the guest foldder /vavr/www/app
 		www.vm.synced_folder "app", "/var/www/app"
 	end
